@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+}
+header{
+	height: 961px;
+	background-color: #ffdd00;	
+}
+article{
+	height: 825px;
+}
+#header{
+	display: block;
+	width: 1800px;
+	height: 300px;
+	position: absolute;
+}
+.header{
+	display: inline-flex;
+	justify-content: center;
+	padding: 80px;
+	margin-left: 100px;
+}
+.social{
+	display: inline-flex;
+	padding-left: 750px;
+	font-family: calibri;
+}
+.text{
+	padding: 30px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.lorem{
+	width: 500px;
+	height: 200px;
+	margin-left: 180px;
+	padding-top: 250px;
+}
+.bold{
+	font-weight: bold;
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+.tablet{
+	position: absolute;
+	margin-left: 1325px;
+	margin-top: 300px;
+}
+.center{
+	text-align: center;
+}
+.lab{
+	text-decoration: none;
+}
