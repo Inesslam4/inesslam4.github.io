@@ -193,14 +193,12 @@ a:hover::after {
   outline-offset: 300px;
 }
 
-/* Всплывающий контейнер */
 .popup {
   position: relative;
   display: inline-block;
   cursor: pointer;
 }
 
-/* Фактическое всплывающее окно (появляется сверху) */
 .popup .popuptext {
   visibility: hidden;
   width: 160px;
@@ -216,7 +214,6 @@ a:hover::after {
   margin-left: -80px;
 }
 
-/* Всплывающее окно со стрелками */
 .popup .popuptext::after {
   content: "";
   position: absolute;
@@ -228,14 +225,12 @@ a:hover::after {
   border-color: #555 transparent transparent transparent;
 }
 
-/* Переключите этот класс при нажатии на всплывающий контейнер (скрыть и показать всплывающее окно) */
 .popup .show {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s
 }
 
-/* Добавить анимацию (исчезает во всплывающем окне) */
 @-webkit-keyframes fadeIn {
   from {opacity: 0;}
   to {opacity: 1;}
